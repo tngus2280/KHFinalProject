@@ -16,36 +16,23 @@
 	font-size: large;
 }
 
-#writebtn{
-/* 	color: #17B794; */
-}
-
-#deletebtn{
-/* 	color: red; */
-}
-
  #divbtn{ 
     padding: 10px; 
 } 
 
 .pagingstyle{
- 	width: 100%; 
- 	padding-left: 40%;
+ 	width: 960px; 
+ 	padding-left: 830px;
 }
 
 #footerbtn{
     position: absolute;
     right: 1.5%;
-    top: 6%;
+    top: 18%;
 }
 
 #serchbox{
 	width: 500px;
-/* 	margin:0 ; */
-/* 	padding: 0; */
-    position: absolute;
-    top: 7%;
-    right: -4.5%;
 }
 
 .anone{
@@ -72,11 +59,7 @@
 	overflow:hidden; 
 	text-overflow:ellipsis;
 	white-space:nowrap; 
-}
-#content {
-    margin: 35px;
-    text-align: center;
-}
+}S
 </style>
 
 <script type="text/javascript">

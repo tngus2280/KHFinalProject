@@ -14,28 +14,24 @@
 	font-weight: bold;
 	font-size: large;
 }
-#content {
-    margin: 35px;
-    text-align: center;
-}
+
+ #divbtn{ 
+    padding: 10px; 
+} 
+
 .pagingstyle{
- 	width: 100%; 
- 	padding-left: 45%;
+ 	width: 960px; 
+ 	padding-left: 830px;
 }
 
 #footerbtn{
     position: absolute;
     right: 1.5%;
-    top: 7%;
+    top: 18%;
 }
 
 #serchbox{
 	width: 500px;
-/* 	margin:0 ; */
-/* 	padding: 0; */
-    position: absolute;
-    top: 7%;
-    right: -4.5%;
 }
 
 .anone{
@@ -49,7 +45,7 @@
 }
 
 .txt_line_content { 
-/* 	width:600px;  */
+	width:600px; 
 	padding:0 5px; 
 	overflow:hidden; 
 	text-overflow:ellipsis;
@@ -63,10 +59,6 @@
 	text-overflow:ellipsis;
 	white-space:nowrap; 
 }
-.liststyle{
-margin:0; 
-padding: 0; }
-
 </style>    
     
 <script type="text/javascript">
@@ -158,9 +150,7 @@ $(document).ready(function(){
 		<td style="width: 10%">${review.REVIEW_NO }</td>
 		<td style="width: 10%"><div class="">${review.USER_ID }</div></td>
 		<td style="width: 50%;">
-			<div class="txt_line_title" >
 				${review.REVIEW_CONTENT }
-			</div>
 		</td>
 <%-- 		<td><div class="txt_line_content">${review.starPoint}</div></td> --%>
 		

@@ -27,15 +27,11 @@
 #footerbtn{
     position: absolute;
     right: 1.5%;
-    top: 6%;
+    top: 18%;
 }
 
 #serchbox{
 	width: 500px;
-	right: -4.5%;
-	position: absolute;
-	top:7%;
-	
 }
 
 .anone{
@@ -151,12 +147,10 @@ $(document).ready(function(){
 	<tr>
 	    <td><input type="checkbox" name="checkRow" value="${question.QUESTION_NO}" id="checkRow" /></td>
 		<td style="width:5%">${question.QUESTION_NO }</td>
-		<td>
-			<div class="txt_line_title">
+		<td style="width:20%">
 				<a href="${pageContext.request.contextPath}/board/question/detail?questionNo=${question.QUESTION_NO}" class="anone"style="width:20%">${question.QUESTION_TITLE }</a>
-			</div>
 		</td>
-		<td><div class="txt_line_content" style="width:40%">${question.QUESTION_CONTENT }</div></td>
+		<td style="width:40%">${question.QUESTION_CONTENT }</td>
 		<td style="width:10%">${question.USER_ID }</td>
 		<td style="width:10%">${question.QUESTION_DATE }</td>
 <%-- 		<td><fmt:formatDate value="${notice.noticeDate }" pattern="yyyy-MM-dd"/></td> --%>
